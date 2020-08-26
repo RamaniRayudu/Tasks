@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 1</title>
+	<link rel="stylesheet" type="text/css" href="task1.css">
+</head>
+<body><br><br>
+<div class="div1">
+	<h1>Welcome to the pet World !</h1><br><br>
+	<div class="div2">
+		<button id="dog" onclick="mydog()"><b>Dog</b></button><br><br>
+		<button id="cat" onclick="mycat()"><b>Cat</b></button><br><br>
+		<button id="parrot" onclick="myparrot()"><b>Parrot</b></button>
+	</div>
+	<div class="div3">
+		<img src="dog.jpg" class="catimg" id="myimage">
+	</div>
+	<div style="clear: both;"></div>
+</div>
+<script type="text/javascript">
+	function mycat(){
+		document.getElementById("myimage").src="cat.jpg";
+	}
+	function myparrot(){
+		document.getElementById("myimage").src="parrot.jpg";
+	}
+	function mydog(){
+		document.getElementById("myimage").src="dog.jpg";
+	}
+</script>
+</body>
+</html>
